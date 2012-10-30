@@ -1,8 +1,8 @@
-jQuery(window).load(function(){
+function resize(){
     jQuery('.resizecut img').each(function(){
       var padre = jQuery('.resizecut');
       var hijo = jQuery(this);
-      padre.css({position:'relative'});  
+        padre.css({position:'relative'});  
         hijo.css({position:'absolute'});
       var widthelement = hijo.width();
       var heightelement = hijo.height();
@@ -24,4 +24,4 @@ jQuery(window).load(function(){
             });
         }
     });
-});
+}
