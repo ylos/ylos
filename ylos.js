@@ -1,4 +1,4 @@
-    jQuery(window).load(function(){
+jQuery(window).load(function(){
     jQuery('.resizecut img').each(function(){
       var padre = jQuery('.resizecut');
       var hijo = jQuery(this);
@@ -24,4 +24,4 @@
             });
         }
     });
-    });
+});
