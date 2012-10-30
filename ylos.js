@@ -940,4 +940,5 @@ function resize(){
             });
         }
     });
+    return null;
 }
