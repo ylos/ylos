@@ -5,6 +5,8 @@
 /* ------------------------------------------------------------------------------------------------------------------------------------
    Class: resizecut - Use: Focused, narrow resized and overflow cut for jQuery - Author: Iotlek (iotlek@msn.com) - Version: 1.0 BETA
 ------------------------------------------------------------------------------------------------------------------------------------- */
+alert('estoy leyendo el fichero');
+
 function runresizecut(){
    alert('hola');
 }
