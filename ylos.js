@@ -914,7 +914,7 @@ var pp_alreadyInitialized = false; // Used for the deep linking to make sure not
 /* ------------------------------------------------------------------------------------------------------------------------------------
    Class: resizecut - Use: Focused, narrow resized and overflow cut for jQuery - Author: Iotlek (iotlek@msn.com) - Version: 1.0 BETA
 ------------------------------------------------------------------------------------------------------------------------------------- */
-function resize(){
+function runresizecut(){
     jQuery('.resizecut img').each(function(){
       var padre = jQuery('.resizecut');
       var hijo = jQuery(this);
